@@ -1,0 +1,190 @@
+body {
+    background: #F7F7F7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #5E6D66;
+}
+
+.container {
+    background: white;
+    max-width: 960px; /* For responsive design */
+    margin: 60px auto; /* Margin Auto is space outside automatically the same / Puts side in the middle */
+    -webkit-box-shadow: 0px 0px 30px 0px #999; /* -webkit prefix allows Chrome, Safari, Opera work well */
+    box-shadow: 0px 0px 30px 0px #999;
+}
+
+.site-title {
+    background: #7bc144;
+    text-align: center;
+    padding: 70px 0; /* Top & battom 70px, left & right 0px */
+}
+
+img {
+    max-width: 100%; /* For responsive design / images change size with the browser width */
+    height: auto; /* Images change size diagonally */
+}
+
+.site-title p {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.site-title strong {
+    font-size: 100px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    text-transform: none;
+}
+
+/*****************
+NAVIGATION
+*****************/
+nav {
+    background: #3B6A26;
+}
+
+nav ul {
+    padding: 0px;
+    margin: auto;
+    list-style: none;
+    max-width: 70%;
+    overflow: auto; /* Overflow flows  a document down */
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 40px;
+}
+
+nav a:hover {
+    background: #7bc144;
+}
+/*****************
+END OF NAVIGATION
+*****************/
+
+/*****************
+MAIN CONTENT
+*****************/
+.main-content {
+    padding: 30px 30px 30px 30px;
+    overflow: auto;
+    line-height: 24px;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.main-content h1, .main-content h2, .main-content h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    color: #3b6a26;
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+.main-content .cta {
+    color: white;
+    padding: 10px 60px;
+    background: #7bc144;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    margin: 30px auto 60px auto;
+    text-align: center;
+}
+
+.main-content .cta:hover {
+    background: #50921c;
+}
+
+.main-content a {
+    color: #3b6a26;
+}
+
+footer {
+    background: #5e6d66;
+    padding: 40px 30px;
+    overflow: auto;
+}
+
+footer img {
+    float: right;
+    padding-left: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+}
+/*****************
+END OF MAIN CONTENT
+*****************/
+
+/*****************
+ABOUT
+*****************/
+.floatleft {
+    float: left;
+}
+/*****************
+END OF ABOUT
+*****************/
+
+/*****************
+SERVICES
+*****************/
+.floatright {
+    float: right;
+}
+/*****************
+END OF SERVICES
+*****************/
+
+/*****************
+PORTFOLIO
+*****************/
+.portfolio {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    overflow: auto;
+}
+
+.portfolio a {
+    float: left;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px #999;
+    box-shadow: 0px 0px 5px 0px #999;
+}
+
+.extrapadding {
+    padding: 0 60px;
+}
+/*****************
+END OF PORTFOLIO
+*****************/
+
+/*****************
+CONTACT
+*****************/
+.paddingbottom {
+    padding-bottom: 40px;
+}
+/*****************
+END OF CONTACT
+*****************/
